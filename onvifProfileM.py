@@ -7,7 +7,7 @@ zeep.xsd.simple.AnySimpleType.pythonvalue = lambda self, xmlvalue: xmlvalue
 
 # Setup camera connection
 cam = ONVIFCamera('172.16.0.64', 80, 'onvifuser', 'onvif1234',
-                  wsdl_dir=r"C:\Users\md\PycharmProjects\HLSServer\wsdlFile\wsdl")
+                  wsdl_dir=r"/wsdlFile/wsdl")
 
 # Create the proper events service
 events_service = cam.create_events_service()

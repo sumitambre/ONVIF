@@ -9,7 +9,7 @@ try:
         80,
         'onvifuser',
         'onvif1234',
-        wsdl_dir=r'C:\Users\md\PycharmProjects\HLSServer\wsdlFile\wsdl'
+        wsdl_dir=r'/wsdlFile/wsdl'
     )
     print("✅ Connected to Camera Successfully!")
 

@@ -11,7 +11,7 @@ camera_ip = '172.16.0.64'
 username = 'onvifuser'
 password = 'onvif1234'
 port = 80
-wsdl_path = r'C:\Users\md\PycharmProjects\HLSServer\wsdlFile\wsdl'  # Replace with actual path
+wsdl_path = r'C:\Users\md\PycharmProjects\HLSServer\ONVIF\wsdlFile\wsdl'  # Replace with actual path
 
 # Connect to camera
 cam = ONVIFCamera(camera_ip, port, username, password, wsdl_dir=wsdl_path)

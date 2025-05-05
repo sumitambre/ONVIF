@@ -7,7 +7,7 @@ ip = '172.16.0.223'
 port = 80
 user = 'onvifuser'
 passwd = 'onvif1234'
-wsdl_path = r'C:\Users\md\PycharmProjects\HLSServer\wsdlFile\wsdl'
+wsdl_path = r'/wsdlFile/wsdl'
 
 # Connect to camera
 cam = ONVIFCamera(ip, port, user, passwd, wsdl_dir=wsdl_path)
